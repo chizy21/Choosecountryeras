@@ -26,5 +26,6 @@ for (let $card of $cards) {
 
   $oldCountryButton.addEventListener("click", () => {
     $oldCountrySection.append($card);
+    
   });
 }
